@@ -1,0 +1,144 @@
+html,body{
+	height:100%;
+	width:100%;
+	font-family:'poppins',arial;
+	color:#222;
+	
+}
+.navbar{
+	padding:.8rem;
+}
+.navbar-nav li{
+	padding-right:20px;
+}
+.nav-link{
+	font-size:1.1em !important;
+}
+.carousel-inner img{
+	height:100%;
+	width:100%;
+}
+.carousel-caption{
+	position:absolute;
+	top:50%;
+	transform: translateY(-50%);
+}
+.carousel-caption h1{
+	font-size:500%;
+	text-transform:uppercase;
+	text-shadow:1px 1px 20px #000;
+}
+.carousel-caption h3{
+	font-size:200%;
+	font-weight:500;
+	text-shadow:1px 1px 25px #000;
+	padding-bottom:1rem;
+}
+.btn-primary{
+	background-color:#6648b1;
+	border:1px solid #6648b1;
+}
+.btn-primary:hover{
+	background-color:#563d7c;
+	border:1px solid #563d7c;
+}
+.btn-secondary a{
+	text-decoration:none;
+}
+.btn-outline-light a{
+	text-decoration:none;
+}
+.jumbotron{
+	padding:1rem;
+	border-radius:0;
+}
+.padding{
+	padding-bottom:2rem;
+}
+.welcome{
+	width:75%;
+	margin: 0 auto;
+	padding-top:2rem;
+}
+.welcome hr{
+	border-top:2px solid #b4b4b4;
+	width:95%;
+	margin-top:.3rem;
+	margin-bottom:1rem;
+}
+footer{
+	background-color:#3f3f3f;
+	color:#d5d5d5;
+	padding-top:2rem;
+	
+}
+hr.light{
+	border-top: 1px solid #d5d5d5;
+	width:75%;
+		margin-top:.8rem;
+		margin-bottom:1rem;
+}
+footer a{
+	color:#d5d5d5;
+}
+hr.light-100{
+	border-top: 1px solid #d5d5d5;
+	width:100%;
+	margin-top:.8rem;
+	margin-bottom:1rem;
+}
+.sandbox1 img{ 
+	width:250px;
+	height:250px;
+	 border-radius:50%;
+ }
+.sandbox2 img{ 
+	width:250px;
+	height:250px;
+	 border-radius:50%;
+ }
+  .sandbox3 img{
+width:250px;
+	height:250px;	  
+	 border-radius:50%;
+ }
+ .sandbox4 img{
+width:250px;
+	height:250px;	  
+	 border-radius:50%;
+ }
+ .sandbox5 img{
+	 width:300px;
+	height:300px;	  
+	 border-radius:50%;
+	 
+ }
+ .sandbox5 img:hover{
+	 opacity:0.6;
+ }
+.sandbox6 img{
+	 width:300px;
+	height:300px;	  
+	 border-radius:50%;
+	 
+ }
+ .sandbox6 img:hover{
+	 opacity:0.6;
+ }
+.sandbox7 img{
+	 width:300px;
+	height:300px;	  
+	 border-radius:50%;
+	 
+ }
+.sandbox7 img:hover{
+	 opacity:0.6;
+ } 
+ .background2{
+	 background-image:url(heart-shaped-shades-red-background-picture-0.jpg);
+	 
+ }
+ .background{
+	 background-image:url(n0wQOa0.jpg);
+ }
+
