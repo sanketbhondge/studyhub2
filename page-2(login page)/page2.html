@@ -1,0 +1,58 @@
+<?php include('server.php');?>
+
+
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" >
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" ></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="jascode.js"> </script>
+<title>webpage2</title>
+<link  type="text/css" rel="stylesheet"
+href="stylesheet2.css">
+</head>
+<body>
+<div class="container-fluid padding">
+<div class="row welcome text-center">
+<div class= "col-12">
+<div  class="login-page">
+<div class="form">
+       <form class="registration-form" action="page2.html" method="post" onsubmit="return validatetextbox();">
+         
+         <?php include('errors.php');?>
+
+          <input type="text" id="username" placeholder="user name"/>
+        
+          <input type="text" id="e-mail" placeholder="E-mail"/>
+          <input type="text" id="password" placeholder="password"/>
+          <button>submit</button>
+   <p class="message">Already Registered? <a href= "#">login</a></p>
+      </form>
+  <form class="login-form" action="page3.html" method="post" onsubmit="return loginbox();">
+<input type="text" id="name" placeholder="user name"/>
+<input type="password" id="password" placeholder="password"/>
+<button><a href="page6.html">login</a></button>
+<p class="message">Not registered<a href="#"> registered </a></p>
+
+
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script src='https://code.jquery.com/jquery-3.3.1.min.js'>
+</script>
+<script>
+$('.message a').click(function() {
+$('form').animate({height: "toggle", opacity: "toggle"},"slow");
+});
+</script>
+
+</body>
+</html>
